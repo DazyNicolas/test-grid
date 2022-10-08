@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+ //position: relative;
+ .line{
+    width: 2px;
+    background: blue;
+    height: 100vh;
+ }
+
+ #card__rouge{
+    width: 100%;
+    background: red;
+    height: 200px;
+ }
+
+ .card__bleu{
+    position: absolute;
+    top:200px;
+    left: 43%;
+    height: 400px;
+    background: blue;
+    width: 100%;
+ }
+}
